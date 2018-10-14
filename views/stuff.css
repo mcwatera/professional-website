@@ -1,0 +1,164 @@
+.icons {
+    padding: 40px;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.centered {
+    margin-top: 0;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 660px;
+    font-size: 17px;
+    background-color: white;
+    border-radius: 25px;
+    padding: 20px 30px; 
+    border: 2px solid #c9dbc0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #e9fce0;
+    background-image: url('logo_opaque.png');
+    background-repeat: no-repeat;
+    background-position: 50px 90px;
+    background-size: 200px auto;
+}
+
+.navbar {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.profileimage {
+    width: 200px;
+    height: auto;
+    margin: 30px auto;
+    margin-bottom: 50px;
+    display: block;
+    border-radius: 25px;
+    border: 2px solid #c9dbc0;
+}
+
+.home-logo {
+    display: block;
+    width: 200px;
+    height: auto;
+    margin: 100px auto;
+}
+
+.home-name {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-style: normal;
+}
+
+.navbar-inverse {
+    background-color: #212d0f;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.summ{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+
+.home-body {
+    background-color: #e9fce0;
+    background-image: none;
+    font-family: 'Open Sans', sans-serif;
+    /*background-position: center 200px;*/
+    /*background-size: 500px;*/
+}
+
+.WWTBHTH1 {
+    font-size: 48px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.resume {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 25px;
+    padding: 20px 30px; 
+    border: 2px solid #c9dbc0;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.resume-name {
+    text-decoration: underline;
+}
+
+.download-file {
+    font-size: 20px;
+}
+
+.wwtbht-image {
+    width: 800px;
+    height: auto;
+    border: 2px solid #c9dbc0;
+    border-radius: 25px;
+    display: block;
+    margin: 50px auto;
+}
+
+.vine {
+    width: 400px;
+    height: auto;
+    border: none;
+    display: block;
+    margin: 30px auto;
+}
+
+.fact {
+    width: 400px;
+    background-color: white;
+    height: auto;
+    border: 2px solid #c9dbc0;
+    border-radius: 25px;
+    display: block;
+    padding: 20px 50px;
+    margin: 50px auto;
+    font-family: 'Open Sans', sans-serif;;
+}
+
+.btn {
+    background-color: #212d0f;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    margin: 50px auto;
+    display: block;
+    width: 100px;
+}
+
+.fimage{
+    width: 600px;
+    border: 2px solid #c9dbc0;
+    border-radius: 25px;
+    display: block;
+    margin: 60px auto;
+}
+
+.wardOne-image {
+    width: 500px;
+    border: 2px solid #c9dbc0;
+    border-radius: 25px;
+    display: block;
+    margin: 60px auto;
+}

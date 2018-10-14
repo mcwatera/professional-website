@@ -1,0 +1,36 @@
+<% include ./header %>
+
+<% var facts = ["I have a cat named  Milo.  He loves to talk and is incredibly affectionate!", 
+                "I am a big fan of Star Wars!  I especially love the character from the new films, Rey.", 
+                "My favorite musical artist is Janelle Monáe.",
+                "I spent the summer of 2018 beginning development on the Ward One iOS app for the Center for Digital Humanities at the University of South Carolina",
+                "In my spare time I love to play video games!  Here's a castle I made in Minecraft.",
+                "I have two sisters--one older and one younger.",
+                "I really enjoy collecting collectibles, especially figurines."]; %>
+                
+<% var fimages = ["milo.JPG",
+                  "rey.jpg",
+                  "janelle.JPG",
+                  "WardOne.PNG",
+                  "minecraft.JPG",
+                  "seesters.JPG",
+                  "collection.JPG"]; %>
+
+<%    var min=0;                                                     %>
+<%    var max=6;                                                    %>
+<%    var random =Math.floor(Math.random() * (+max - +min)) + +min;  %>
+    
+<% var factoid_image = fimages[random];                              %>
+<% var factoid = facts[random];                                      %>
+
+<img src="<%=factoid_image%>" class="fimage">
+
+<span class="fact">
+    <p>
+       <%=factoid %>
+    </p>
+</span>
+
+<a class="btn btn-primary btn-large" href="/fun/new">New Fact</a>
+
+<% include ./footer %>
